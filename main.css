@@ -477,7 +477,7 @@ ul > li
 	color: red;
 	position: absolute;
 	bottom: 0;
-	right: : 50%;
+	right: 50%;
 	height: 3px;
 	width: 0%;
 	background-color:  #074cbc;
@@ -486,7 +486,7 @@ ul > li
 }
 .projekt:hover:after	
 {
-	right: : 0%;
+	right:  0%;
 	width: 50%;
 }
 #wady_zalety
