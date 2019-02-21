@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>#TechnikInformatyk</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Wiktor RYCHU Matkowski">
+	<link rel="icon" href="gluten-free.ico" type="image/x-icon"/>
+	<link rel="shortcut icon" href="gluten-free.ico" type="image/x-icon"/>
+	<link href="https://fonts.googleapis.com/css?family=Fira+Mono" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Courgette|Great+Vibes|Fontdiner+Swanky|Fredericka+the+Great|Press+Start+2P|Parisienne|Finger+Paint&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<script type="text/javascript">	
+	
+		function stickyNav()
+		{
+			var nav = document.getElementById("nav");
+			var topPosition = nav.offsetTop;
+			var windowP = window.top;
+			
+			if(topPosition < document.documentElement.scrollTop)
+			{
+				nav.classList.add("sticky");
+			}
+			else 
+			{
+				nav.classList.remove("sticky");
+			}
+		}
+	
+	</script>
+</head>
+<body onscroll="stickyNav()">
+<div id="pudlo">	
+	<div id="wstemp">
+			<div id="nav" >
+				<a href="#omnie"><div class="nav_info">ZAINTERESOWANIA </div></a>
+				<a href="#projekty"><div class="nav_info">PROJEKTY</div></a>
+				<a href="#wady_zalety"><div class="nav_info">WADY & ZALETY</div></a>
+				<a href="#kontakt"><div class="nav_info">KONTAKT</div></a>
+			</div>
+		
+			<p>Matkowski</p>
+			<p>Wiktor</p>
+			<div id="next"><a href="#o_mnie"><span>Poznaj mnie</span></a></div>
+	</div>
+	<a name="omnie"></a>	
+	<div id="o_mnie">
+		<h2>Zainteresowania</h2>
+
+		<div style="width: 900px;margin: auto;">
+
+			<div class="hobby" id="bicek">
+				<img src="img/hobby_img/bicek.png" >
+				<span>Trening</span>
+
+				<div class="hobby_opis">
+					<span style="border-top: 3px solid #4AFCFE;">
+						Pierwszy raz poszedłem na siłownię z bratem w wakacje po pierwszej klasie gimnazjum. 
+						<br>
+						Gdy nadszedł czas powrotu do szkoły
+						nie miałem czasu na wychodzenie z domu. Dlatego zdecydowałem się na kupno drążka. Od tamtego czasu ćwicze regularnie pompki, brzuszki, podciąganie się na drążku itp. Mam zamiar kupić hantle. Od czasu do czasu pływam na basenie.
+					</span>
+				</div>
+			</div>
+			<div class="hobby" id="kod">
+				<img src="img/hobby_img/kod.png">
+				<span>Programowanie</span>
+				<div class="hobby_opis">
+					<span style="border-top: 3px solid #ffa114;">
+						Moja przygoda z programowaniem zaczęła się w drugiej klasie gimnazjum, gdy na lekcji informatyki pokazano mi jak się piszę strony 
+						internetowe.
+						<br>
+						Gdy opanowałem je w dosyć dobrym stopniu, przerzuciłem się na typowo programistyczny język. 
+						<br>
+						Z biegiem czasu nauczyłem się: HTML, CSS, PHP, SQL, C++ i Java. Aktualnie uczę się Pythona i JavaScript.
+					</span>
+				</div>
+			</div>
+			<div style="clear: both;"></div>
+			<div class="hobby" id="bramkarz">
+				<img src="img/hobby_img/bramkarz.png">
+				<span>Sport</span>
+				<div class="hobby_opis">
+					<span style="border-top:  3px solid #62ce0a;">
+						Od dziecka chodziłem na mecze moich starszych braci, jeden z nich był świetnym bramkarzem. W momencie gdy podrosłem spróbowałem
+						swych sił w tej roli.  
+						<br>
+						Okazało się, że nawet dobrze mi idzie i czuję się wygodnie w roli bramkarza. Na piętnaste urodziny dostałem rękawice. I tak się już
+						przyjęło, że na WF idę na bramkę. 
+					</span>
+				</div>
+			</div>
+			<div class="hobby" id="grafik">
+				<img src="img/hobby_img/mesh.png">
+				<span>Grafika</span>
+				<div class="hobby_opis">
+					<span style="border-top:  3px solid #00498D;">
+						Grafiką zainteresowałem się w połowie trzeciej klasy gimnazjum równolegle z Unity 3D. W obu tych dziedzinach szło mi dobrze.
+						<br>
+						Po jakimś czasie stwierdziłem, że lepiej czuję sie w modelowaniu niż game-devie dlatego zostawiłem Unity i skupiłem się na szlifowaniu
+						umiejętności w Blenderze. 
+					</span>
+				</div>
+			</div>		
+		</div>
+	</div>
+	<a name="projekty"></a>
+	<div id="projekty">
+		<h2>Projekty </h2>
+
+		<div class="projekt">
+			<figure>
+				<a href="download/quiz.rar" download="Quiz">
+					<div class="download"><img src="img/projekty_img/download.png"></div>
+				</a>
+				<img id="zdj" src="img/projekty_img/quiz1.png">
+				<figcaption>Quiz - Java</figcaption>
+			</figure>
+		</div>
+
+		<div class="projekt">
+			<figure>
+				<a href="download/forum.rar" download="forum">
+					<div class="download"><img src="img/projekty_img/download.png"></div>
+				</a>
+				<img src="img/projekty_img/rozkminy.png">
+				<figcaption>Forum - HTML | CSS | SQL | PHP</figcaption>
+			</figure>
+		</div>
+
+		<div style="clear: both;"></div>
+
+		<div class="projekt">
+			<figure>
+				<a href="download/aplikacjaInternetowa.rar" download="aplikacjaInternetowa.rar">
+					<div class="download"><img src="img/projekty_img/download.png"></div>
+				</a>
+				<img src="img/projekty_img/horror.png">
+				<figcaption>Aplikacja internetowa - HTML | CSS | SQL | PHP</figcaption>
+			</figure>
+		</div>
+		<div class="projekt">
+			<figure>
+				<a href="download/bestiariusz.rar" download="Bestiariusz">
+					<div class="download"><img src="img/projekty_img/download.png"></div>
+				</a>
+				<img src="img/projekty_img/bestiariusz.png">
+				<figcaption>Bestiariusz - Java Maven | JavaFX</figcaption>
+			</figure>
+		</div>
+
+		<div style="clear: both;"></div>
+
+		<div class="projekt">
+			<figure>
+				<a href="download/chata.rar" download="Bestiariusz">
+					<div class="download"><img src="img/projekty_img/download.png"></div>
+				</a>
+				<img src="img/projekty_img/chata.png">
+				<figcaption>Chata - Blender 2.8</figcaption>
+			</figure>
+		</div>
+		<div class="projekt">
+			<figure>
+				<a href="download/jelen.rar" download="Bestiariusz">
+					<div class="download"><img src="img/projekty_img/download.png"></div>
+				</a>
+				<img src="img/projekty_img/jelen.png">
+				<figcaption>Jeleń - Blender 2.8</figcaption>
+			</figure>
+		</div>
+
+	</div>
+	<a name="wady_zalety"></a>
+	<div id="wady_zalety">
+		<div id="zalety">
+			<h1>ZALETY</h1>
+			<ul id="ul_z">
+				<li>dobrze tłumaczę</li>
+				<li>jestem spokojny</li>
+				<li>lubię pomagać</li>
+				<li>potrafię słuchć innych</li>
+				<li>łatwo nawiązuje kontakt</li>
+				<li>potrafię pracować w grupie</li>
+				<li>chęć ciągłego rozwoju</li>
+			</ul>
+		</div>
+		<div id="wady">
+			<h1>WADY</h1>
+			<ul id="ul_w">
+				<li>słaby komputer</li>
+				<li>łatwo się rozpraszam</li>
+				<li>niechęć do występowania publicznie</li>			
+			</ul>
+		</div>
+	</div>
+
+	<a name="kontakt"></a>
+	<footer>
+		<h1>KONTAKT</h1>
+		<div id="kontakt_info">
+			<section>
+				<p><img src="img/kontakt_img/email.png"></p>
+				<p><img src="img/kontakt_img/phone.png"></p>
+				<p><img src="img/kontakt_img/fb.png"></p>			
+			</section>
+			<section>
+				<span>wiktorzme@wp.pl</span>
+				<span>544263687</span>
+				<a href="https://www.facebook.com/profile.php?id=100014546953137" target="_blank"><span>Wiktor Matkowski</span></a>
+			</section>
+		</div>
+		<span>HolyGeek404</span>
+	</footer>
+</div>
+</body>
+</html>
