@@ -65,13 +65,11 @@ footer > span
 	padding: 15px;
 	display: block;
 	font-family: 'Great Vibes', cursive;
-	font-size: 28px;
+	font-size: 39px;
 	text-shadow: 1px 1px 1px #DD7600;
 	font-weight: bold;
 	letter-spacing: 3px;
-	position: absolute;
-	bottom: 0;
-	left: 40%;
+	margin-top: 40px;
 }
 footer h1
 {
@@ -489,6 +487,7 @@ ul > li
 	right:  0%;
 	width: 50%;
 }
+
 #wady_zalety
 {
 	width: 100%;
